@@ -1,97 +1,62 @@
-<!DOCTYPE html>
-<html>
-<head>
-    <title>D_TECH CORPORATION</title>
-    <link rel="icon" href="ruta_a_tu_favicon.ico">
-    <link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
-    <style>
-        body {
-            font-family: 'Fantasy';
-            margin: 2;
-            padding: 2;
-            background-image: url(https://img.freepik.com/fotos-premium/hermosos-fondos-pagina-web-sobre-multimedia_590200-5864.jpg);
-            background-size: cover;
-        }
-        .navbar {
-            background-color:#acd6ff;
-            overflow: hidden;
-            margin-bottom: 60px;
-        }
-        .navbar a {
-            float: left;
-            display: block;
-            color: 000000;
-            text-align: center;
-            padding: 14px 16px;
-            text-decoration: none;
-        }
-        .navbar a:hover {
-            background-color: #acacff;
-            color: #FFFFFF;
-        }
-        .logo {
-            width: 60px;
-            height: 60px;
-            float: left;
-        }
-        
-        .img {
-            width: 60px;
-            height: 60px;
-            transition: transform .2s;
-        }
-        .img:hover {
-            transform: scale(1.1);
-        }
-        
-       /* Estilos para el pie de página */
-        .footer {
-            background-color:#acadff;
-            color: 000000;
-            padding: 10px;
-            text-align: left;
-            position: relative; /* Cambiado de 'fixed' a 'relative' */
-            width: 100%;
-          .img2 {
-            width: 30px;
-            height: 30px;
-            transition: transform .2s;
-        }
+body {
+    font-family: Arial, sans-serif;
+    padding: 20px;
+    background-color: #f8f8f8;
 }
-    </style>
-</head>
-<body>
-    <div class="navbar">
-        <img src="https://www.computing.es/wp-content/uploads/2023/04/37973_40.png" alt="Logo" class="logo">
-        <a href="#home">Inicio</a>
-        <a href="#products">Productos</a>
-        <a href="#services">Servicios</a>
-    </div>
-    <div id="home">
-        <h1>BIENVENIDOS A D-TECH CORPORATION</h1>
-        <p>Somos expertos importadores de tecnologia,te ofrecemos una amplia gama de productos y servicios para tu negocio.</p>
 
-    </div>
-    <div id="products">
-        <h2>Nuestros Productos</h2>
-        <p>Aqui encontraras una variedad de productos tecnologicos de la mas alta calidad.</p>
-        
-        <img class="img" src="https://th.bing.com/th/id/OIP.mNY9Q6PnZ1AlKk4ZLp3KVQHaKm?rs=1&pid=ImgDetMain" alt="Imagen 1">
-        <img class="img" src="https://m.media-amazon.com/images/S/aplus-media/vc/779be7f4-dbad-458a-bc30-f793cd214059.jpg" alt="Imagen 2">
-        <br>
-    </div>
-    <div id="services">
-        <h2>Nuestros Servicios</h2>
-        <p>Ofrecemos servicios tecnicos para todos tus dispositivos tecnologicos.</p>
-    </div>
-    
-    <!-- Aquí está tu nuevo pie de página -->
-    <div class="footer">
-       
-        <p>Contactos: 0995303287 - 0984600510 <img class="img2" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQypUnEjzsa1OjzrFwnK2o21reaSaj3u1SEEA&s" alt="Imagen 1">
-        <img class="img2" src="https://img.freepik.com/vector-premium/concepto-icono-whatsapp_23-2147900930.jpg" alt="Imagen 2">
-        <p>Correo electronico: chavezdaniel334@yahoo.com</p>
-        <p>Redes sociales: Facebook - Danielito Chavez, Instagram - @danicho_chavez</p>
-    </div>
-</body>
-</html>
+h1 {
+    text-align: center;
+    color: #333;
+}
+
+/* Estilo general para todas las tablas */
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-bottom: 30px;
+}
+
+th, td {
+    padding: 10px;
+    border: 1px solid #ccc;
+}
+
+/* Estilo para tabla de empresa */
+table.empresa th {
+    background-color: #1b75bc;
+    color: white;
+    text-align: center;
+}
+table.empresa td {
+    background-color: #e6f2ff;
+}
+
+/* Estilo para tabla de cliente */
+table.cliente th {
+    background-color: #c2d760;
+    color: white;
+}
+table.cliente td {
+    background-color: #e0f2f1;
+}
+
+/* Estilo para tabla de productos */
+table.productos thead {
+    background-color: #ff9800;
+    color: white;
+}
+table.productos tbody tr:nth-child(even) {
+    background-color: #64879b;
+}
+table.productos tbody tr:hover {
+    background-color: #ffe0b2;
+}
+
+/* Estilo para tabla adicional */
+table.adicional th {
+    background-color: #4c61a0;
+    color: white;
+}
+table.adicional td {
+    background-color: #f3e5f5;
+}
