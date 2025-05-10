@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Factura</title>
+    <link rel="stylesheet" href="../public/CSS/global.css">
+</head>
+<body>
+
+    <h1>Factura / Proforma</h1>
+
+    <table class="empresa">
+        
+        <tr><th>Datos de la Empresa</th><th></th></tr>
+        <tr><td>Nombre:</td><td>DTECH CORPORATION S.A.</td></tr>
+        <tr><td>Dirección:</td><td>Calle Las Anonas y los Tulipanes</td></tr>
+        <tr><td>RUC:</td><td>1805240668001</td></tr>
+        <tr><td>Teléfono:</td><td>0995303287</td></tr>
+        <tr><td>Email:</td><td>ventas@dtechcorporation.com</td></tr>
+    </table>
+
+    <table class="cliente">
+        
+        <tr><th>Datos del Cliente</th><th></th></tr>
+        <tr><td>Nombre:</td><td>Juan Pérez</td></tr>
+        <tr><td>Cédula/RUC:</td><td>1500923378</td></tr>
+        <tr><td>Dirección:</td><td>Avenida Eloy Alfaro y Portugal</td></tr>
+        <tr><td>Teléfono:</td><td>0983261688</td></tr>
+        <tr><td>Email:</td><td>juan.perez@gmail.com</td></tr>
+    </table>
+
+    <table class="productos">
+        <thead>
+            <tr>
+                <th>Producto</th>
+                <th>Código</th>
+                <th>Valor Unitario</th>
+                <th>Cantidad</th>
+                <th>Subtotal</th>
+                <th>Detalles</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr><td>CELULAR INFINIX</td><td>T001</td><td>$150</td><td>3</td><td>$450</td><td>Infinix HOT 50 PRO</td></tr>
+            <tr><td>LAPTOPS</td><td>M002</td><td>$450</td><td>2</td><td>$900</td><td>LAPTOPS MARCA ACER CORE I5 512 GB Y 8GB RAM</td></tr>
+            <tr><td>CARGADORES CELULAR</td><td>P003</td><td>$1.50</td><td>8</td><td>$12</td><td>CARGADORES MARCA SAMSUNG TIPO C</td></tr>
+            <tr><td>MICAS DE VIDRIO</td><td>P004</td><td>$0.50</td><td>80</td><td>$40</td><td>MICAS DE VARIOS MODELOS DE CELULARES</td></tr>
+            <tr><td>PARLANTES</td><td>S005</td><td>$10</td><td>6</td><td>$60</td><td>MARCA SONNY</td></tr>
+            <tr>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td style="text-align:right;"><strong>Total:</strong></td>
+                <td><strong>$1462</strong></td>
+                <td></td>
+            </tr>
+        </tbody>
+    </table>
+
+  
+    <table class="adicional">
+        <tr><th>Información Adicional</th><th></th></tr>
+        <tr><td>Forma de pago:</td><td>Efectivo</td></tr>
+        <tr><td>Observaciones:</td><td>Gracias por su compra. Vuelva pronto.</td></tr>
+        <tr><td>Página Web:</td><td>www.dtechcorporation.com</td></tr>
+    </table>
+
+</body>
+</html>
